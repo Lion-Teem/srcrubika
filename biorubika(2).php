@@ -1,7 +1,8 @@
 <?php
-$auth="kaiojzzodttpmhhzbhb";
+$auth="AUTH-KEY";
 function jdate($format,$timestamp='',$none='',$time_zone='Asia/Tehran',$tr_num='fa'){
-
+/*
+#rubika.ir/Lion_Teem
  $T_sec=0;/* <= رفع خطاي زمان سرور ، با اعداد '+' و '-' بر حسب ثانيه */
 
  if($time_zone!='local')date_default_timezone_set(($time_zone==='')?'Asia/Tehran':$time_zone);
