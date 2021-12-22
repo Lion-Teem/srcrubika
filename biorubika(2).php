@@ -111,7 +111,7 @@ function jdate($format,$timestamp='',$none='',$time_zone='Asia/Tehran',$tr_num='
 	$out.=$j_m;
 	break;
 /* 
-@zahed3turk
+@Web_Writer
 */
 	case'N':
 	$out.=$date[7]+1;
@@ -232,7 +232,7 @@ function jstrftime($format,$timestamp='',$none='',$time_zone='Asia/Tehran',$tr_n
   switch($sub){
 
 	/*
-@zahed3turk
+@Web_Writer
 */
 	case'a':
 	$out.=jdate_words(array('kh'=>$date[6]),' ');
